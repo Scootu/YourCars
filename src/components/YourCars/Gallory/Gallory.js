@@ -1,9 +1,7 @@
-import { useState } from "react";
 import Button from "../../UI/Button";
 import classes from "./Gallory.module.css";
 
 const Gallory = () => {
-  
   const hoverElement = (
     <div className={classes.galloryMid}>
       <p>Tesla module 3</p>
