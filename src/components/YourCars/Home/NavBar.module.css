@@ -152,7 +152,7 @@
     justify-content: center;
     top: 69px;
     background: rgba(18, 39, 61, 0.95);
-    backdrop-filter: blur(25px);
+    
     height: 646.5px;
 
     transform: translate(100%, 0);
