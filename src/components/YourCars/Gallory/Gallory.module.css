@@ -35,11 +35,11 @@
     transition: 0.5s ease-in-out;
     cursor: auto;
     text-align: center;
-    width: 375px;
+    width: 100%;
 }
 
 .container:hover .galloryMid {
-    transform: translate(50%);
+    right: 0;
     visibility: visible;
     opacity: 1;
 
