@@ -93,9 +93,10 @@
     }
 
 }
+
 @media (max-width:31.25em) {
     .main {
         position: absolute;
     }
-    
+
 }

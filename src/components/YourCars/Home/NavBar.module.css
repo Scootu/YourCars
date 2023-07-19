@@ -148,9 +148,8 @@
   .navBarList {
 
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     justify-content: center;
-    right: 0;
     top: 69px;
     background: rgba(18, 39, 61, 0.95);
     backdrop-filter: blur(25px);
@@ -159,8 +158,9 @@
     transform: translate(100%, 0);
     transition: 0.3s ease-in-out;
     color: #ffffff;
-    width: 60%;
     max-width: 336px;
+    right: 0;
+    width: 60%;
     visibility: hidden;
     pointer-events: none;
   }
