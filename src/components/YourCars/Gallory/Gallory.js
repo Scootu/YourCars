@@ -37,7 +37,7 @@ const Gallory = () => {
         {hoverElement}
       </div>
 
-      <div className={classes.container}>
+      <div className={`${classes.container} ${classes.hiddeOverMobile}`}>
         <img
           className={classes.galloryImg}
           src="/images/GalloryImg/boghaty.png"
@@ -46,7 +46,7 @@ const Gallory = () => {
         {hoverElement}
       </div>
 
-      <div className={classes.container}>
+      <div className={`${classes.container} ${classes.hiddeOverMobile}`}>
         <img
           className={classes.galloryImg}
           src="/images/GalloryImg/Rectangle2.png"
@@ -55,7 +55,7 @@ const Gallory = () => {
         {hoverElement}
       </div>
 
-      <div className={classes.container}>
+      <div className={`${classes.container} ${classes.hiddeOverMobile}`}>
         <img
           className={classes.galloryImg}
           src="/images/GalloryImg/AstenMartenSpeedNew.png"
@@ -64,7 +64,7 @@ const Gallory = () => {
         {hoverElement}
       </div>
 
-      <div className={classes.container}>
+      <div className={`${classes.container} ${classes.hiddeOverMobile}`}>
         <img
           className={classes.galloryImg}
           src="/images/GalloryImg/AstenMartenM.png"
@@ -73,7 +73,7 @@ const Gallory = () => {
         {hoverElement}
       </div>
 
-      <div className={classes.container}>
+      <div className={`${classes.container} ${classes.hiddeOverMobile}`}>
         <img
           className={classes.galloryImg}
           src="/images/GalloryImg/AstenMarten.png"
@@ -82,7 +82,7 @@ const Gallory = () => {
         {hoverElement}
       </div>
 
-      <div className={classes.container}>
+      <div className={`${classes.container} ${classes.hiddeOverMobile}`}>
         <img
           className={classes.galloryImg}
           src="/images/GalloryImg/Car.png"

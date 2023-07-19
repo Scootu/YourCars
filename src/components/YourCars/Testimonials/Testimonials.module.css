@@ -36,7 +36,7 @@
         font-size: 10rem;
     }
 }
-@media (max-width:29.375em) {
+@media (max-width:31.25em) {
     .rides { 
         font-size: 6rem;
     }

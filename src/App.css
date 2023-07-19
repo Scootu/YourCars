@@ -53,7 +53,6 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 84px;
-  line-height: 164px;
 
   /* left: 0;
     top: -22px; */
@@ -68,8 +67,7 @@ body {
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
-  font-size: 128px;
-  line-height: 164px;
+  font-size: 10rem;
   z-index: 0;
   text-align: center;
   left: 50%;
@@ -239,6 +237,9 @@ body {
 }
 
 @media only screen and (max-width:31.25em) {
+  html,body {
+    width: 375px;
+  }
   .ridesPositionLefts {
     width: 375px;
   }
