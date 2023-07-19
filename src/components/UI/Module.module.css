@@ -6,7 +6,6 @@
 }
 
 .backdrop {
-    overflow-y: auto;
     position: fixed;
     background: #12273D;
     opacity: 1;

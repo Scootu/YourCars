@@ -14,7 +14,7 @@
     height: 100%;
 }
 
-.transElement {}
+
 
 .galloryMid {
     display: flex;
@@ -93,5 +93,9 @@
     }
 
 }
-
-@media (max-width:29.375em) {}
+@media (max-width:31.25em) {
+    .main {
+        position: absolute;
+    }
+    
+}

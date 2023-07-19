@@ -161,6 +161,8 @@
     color: #ffffff;
     width: 60%;
     max-width: 336px;
+    visibility: hidden;
+    pointer-events: none;
   }
 
   .navSticky .navBarList li a {
@@ -180,6 +182,8 @@
 
   .navMobileTransilate {
     transform: translate(0, 0);
+    visibility: visible;
+      pointer-events: all;
   }
 
   .img {
