@@ -147,6 +147,7 @@ form {
     align-items: center;
     gap: 18px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 hr {
